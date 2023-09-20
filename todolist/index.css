@@ -1,0 +1,118 @@
+#main {
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #03036A;
+
+}
+
+#mainForm {
+    margin: 0px;
+}
+
+input[name='input'] {
+    width: 590px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+button.complited {
+    border-radius: 10px;
+    height: 30px;
+}
+
+button.deleteTask {
+    border-radius: 10px;
+    height: 30px;
+}
+
+input[type='button'] {
+    border-radius: 10px;
+    height: 30px;
+    font-size: em;
+    width: 100%;
+}
+
+/* input[name='even'] {
+    background-color: #90909e;
+} */
+
+#search {
+    padding: 10px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #6565D1;
+    border-radius: 10px;
+}
+
+#buttons {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0px;
+    background-color: #6565D1;
+    padding: 10px;
+    gap: 5px;
+
+
+}
+
+/* form {
+    border: 1px solid black;
+} */
+
+ol {
+    border: 1px solid black;
+    background-color: #6565D1;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+li {
+    background-color: #F4D26E;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+.complitedText {
+    font-style: italic;
+    text-decoration: line-through;
+    background-color: #975700;
+}
+
+.even {
+    background-color: yellow;
+}
+
+.odd {
+    background-color: red;
+}
+
+.noTasks {
+    background-color: #6565D1;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
